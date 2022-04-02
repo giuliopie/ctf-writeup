@@ -1,0 +1,42 @@
+baseURL = "https://www.example.com"
+languageCode = "en-us"
+title = "title"
+copyright = "Copyright © 2008–2019, Steve Francia and the Hugo Authors; all rights reserved."
+theme = "npq-hugo"
+pygmentsUseClasses=true
+
+[params]
+  author = "your name"
+  description = "your description"
+  keywords = "hugo blog"
+  useAvatar = true
+  microBlogSection = "posts"
+  displayMicroBlog = false
+  displayRecent = true
+  displayHomeContent = false
+  recentMax = 4
+  mail = "mail@example.com"
+  phone = "8888888888"
+  formspreeID = "yourformspreeID"
+
+[menu]
+  [[menu.main]]
+    name = "home"
+    pre = "<i class=\"fas fa-home fa-sm\"></i>"
+    url = "/"
+    weight = -9
+  [[menu.main]]
+    name = "hackerone"
+    pre = "<i class=\"fas fa-keyboard fa-ms\"></i>"
+    url = "/hackerone"
+    weight = -8
+  [[menu.main]]
+    name = "Hack the box"
+    pre = "<i class=\"fas fa-tags fa-ms\"></i>"
+    url = "/hackthebox"
+    weight = -7
+  [[menu.main]]
+    name = "How to build page"
+    pre = "<i class=\"far fa-envelope\"></i>"
+    url = "/privacy"
+    weight = -6
